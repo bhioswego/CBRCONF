@@ -1,0 +1,26 @@
+Package: CBRCONF
+Type: Package
+Title: Case Based Reasoning with Confidence (CBR-CONF)
+Version: 1.0.0
+Author: Christopher L. Bartlett
+Maintainer: Christopher Bartlett <cbartle3@oswego.edu>
+Description: CBR-CONF is a case-based reasoning system for survival prediction which uses a novel confidence metric to determine how many similar cases to retrieve for each novel test case. To compare more directly to kNN, this not only means that k differs for each test sample, but it also means that each case is weighted based on how much information it is expected to provide and retrieval stops when we can confidently assign a solution. 
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+  RegParallel,
+  survival,
+  caret,
+  survcomp,
+  stats,
+  textshape,
+  gbm,
+  rms,
+  ranger,
+  randomForestSRC,
+  R6,
+  data.table,
+  dplyr,
+  glmnet
+RoxygenNote: 7.1.1
