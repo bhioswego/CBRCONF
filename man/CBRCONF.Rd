@@ -62,7 +62,7 @@ This is a class object to store all of the results performed with the modules of
 
 \item{\code{testing_concordance}}{The concordance values for each testing fold}
 
-\item{\code{testing_sample_information}}{The risk group, predicted survival times, status, and}
+\item{\code{testing_sample_information}}{The risk group, predicted survival times, status, and testing_results}
 }
 \if{html}{\out{</div>}}
 }
